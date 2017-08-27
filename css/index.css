@@ -1,0 +1,35 @@
+.esconde-icones-pergunta {
+	display: none;
+}
+
+.esconde-icones-resposta {
+	display: none;
+}
+#logo{
+	width:70%;
+    height:70%;
+}	
+
+.img-div{
+	align-items: center;
+	padding-left: 25%;
+}
+
+#respostas{
+	font-size: 25px;
+}
+
+#perguntas{
+	font-size: 25px;
+}
+
+.container{
+	padding-top: 12px;
+}
+
+#nome-digitado{
+	font-size: 19px;	
+}
+#informa_bombom{
+	padding-top: 20px;
+}

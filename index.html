@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz INBRENJ</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="img-div">
+			<img class="img-responsive" id="logo" src="img/logo.png">
+		</div>
+		<form id="informa_bombom">
+			<div class="form-group">
+				<label>Nome Chocolate:</label> </br>
+				<select class="form-control" id="nome-digitado" placeholder="Nome chocolante">>
+				    <option disabled selected="selected">Nome chocolantes</option>
+				    <option>Serenata</option>
+				    <option>Crocante</option>
+				    <option>Alo Doçura</option>	
+				    <option>Surreal</option>
+				    <option>Baton Garoto</option>
+				    <option>Ao Leite</option>
+				    <option>It coco</option>
+				    <option>Milk mel</option>
+				    <option>Mundy</option>
+				    <option>Opereta</option>
+				    <option>Baton Garoto morango</option>
+				 </select></br></br>
+				<button type="button" class="btn btn-success" id="gera-pergunta">Gerar pergunta</button>
+			</div>
+		</form>
+		<h2 id="resposta-cabecario" class="esconde-icones-pergunta">Pergunta</h2>
+		<table class="table esconde-icones-pergunta" id="tabela-resposta">
+			<thead id="perguntas" class="esconde-icones-pergunta">
+				<tr>
+					<th><span id="localPergunta">Esse é o local onde vai ficar as perguntas para os irmãos responder</span></th>
+					<th>
+						<button type="button" class="btn btn-success" id="gera-resposta">
+							Ver Resposta
+						</button>
+					</th>
+				</tr>
+			</thead>
+			<tbody id="respostas" class="esconde-icones-resposta">>
+				<tr>
+					<td>
+						<span id="localResposta">
+						Esse é o local onde vai ficar as respostas para os irmãos
+						</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+<script src="jquery/jquery.js"></script>
+<script src="js/index.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
